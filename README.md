@@ -46,7 +46,7 @@ A Streamlit interface is used to demonstrate each step of the machine learning p
           - Explains the concept of a text corpus
 
 📸 *Screenshot:*  
-          `/screenshots/dataset_overview.png`
+          ![dataset_overview](screenshots/dataset_overview.png)
 
 ---
 
@@ -55,7 +55,7 @@ A Streamlit interface is used to demonstrate each step of the machine learning p
       - Shows before and after preprocessing results
 
 📸 *Screenshot:*  
-         `/screenshots/text_preprocessing.png`
+         ![text_preprocessing](screenshots/text_preprocessing.png)
 
 
 ### 3️⃣ TF-IDF Vectorization
@@ -64,7 +64,7 @@ A Streamlit interface is used to demonstrate each step of the machine learning p
 - Demonstrates handling of unseen words
 
 📸 *Screenshot:*  
-          `/screenshots/tfidf_vectorization.png`
+          ![tfidf_vectorization](screenshots/tfidf_vectorization.png)
 
 ---
 
@@ -73,7 +73,7 @@ A Streamlit interface is used to demonstrate each step of the machine learning p
 - Displays trained class labels
 
 📸 *Screenshot:*  
-         `/screenshots/model_training.png`
+         ![model_training](screenshots/model_training.png)
 
 ---
 
@@ -83,7 +83,7 @@ A Streamlit interface is used to demonstrate each step of the machine learning p
 - Handles uncertain or unrelated inputs
 
 📸 *Screenshot:*  
-          `/screenshots/prediction.png`
+          ![prediction](screenshots/prediction.png)
 
 ---
 
@@ -93,7 +93,7 @@ A Streamlit interface is used to demonstrate each step of the machine learning p
         - Confusion Matrix
 
 📸 *Screenshot:*  
-         `/screenshots/model_evaluation.png`
+         ![model_evaluation](screenshots/model_evaluation.png)
 
 ---
 
@@ -103,7 +103,7 @@ A Streamlit interface is used to demonstrate each step of the machine learning p
           - Discusses model behavior and limitations
 
 📸 *Screenshot:*  
-          `/screenshots/results_analysis.png`
+          ![results_analysis](screenshots/results_analysis.png)
 
 ---
 
@@ -112,33 +112,33 @@ A Streamlit interface is used to demonstrate each step of the machine learning p
           - Demonstrates end-to-end system functionality
 
 📸 *Screenshot:*  
-           `/screenshots/full_pipeline.png`
+           ![full_pipeline](screenshots/full_pipeline.png)
 
 ---
 
 ## 🧪 Technologies Used
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-learn
+          - Python
+          - Streamlit
+          - Pandas
+          - NumPy
+          - Scikit-learn
 
 ---
 
 ## ⚠️ Limitations
-- Small, manually created dataset
-- Evaluation performed on training data
-- TF-IDF does not capture semantic similarity between words
+          - Small, manually created dataset
+          - Evaluation performed on training data
+          - TF-IDF does not capture semantic similarity between words
 
-These limitations are acknowledged as part of the learning objective.
+     These limitations are acknowledged as part of the learning objective.
 
 ---
 
 ## ▶️ How to Run the Project
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+       ```bash
+             pip install -r requirements.txt
+             streamlit run app.py
 
 
 🙌 Credits
