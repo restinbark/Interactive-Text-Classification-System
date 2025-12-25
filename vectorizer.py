@@ -7,3 +7,5 @@ def build_vectorizer(texts):
     )
     X = vectorizer.fit_transform(texts)
     return vectorizer, X
+
+
