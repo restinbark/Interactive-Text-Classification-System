@@ -1,3 +1,4 @@
+
 from sklearn.naive_bayes import MultinomialNB
 
 def train_model(X, y):
